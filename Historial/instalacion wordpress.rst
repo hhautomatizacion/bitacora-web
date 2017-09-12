@@ -14,7 +14,7 @@ Instalar las dependencias
    sudo apt-get install apache2 php5 libapache2-mod-php5 php5-mysql php5-gd libssh2-php
    sudo apt-get install mysql-server-5.5
 
-Cambiar configuracion de mysql (tamaño maximo de packete y permitir conexiones desde cualquier host)
+Cambiar configuracion de mysql (tamaño maximo de paquete y permitir conexiones desde cualquier host)
 
 ::
 
