@@ -51,14 +51,18 @@ Cambiar configuracion PHP (tamaño maximo para subir archivos y tiempo maximo de
 ----
    
 Obtener el paquete, descomprimirlo y moverlo al directorio que usa el servidor apache
+Crear directorio para subir archivos
 
 ::
 
    wget https://es-mx.wordpress.org/wordpress-4.3.1-es_MX.zip
    unzip wordpress-4.3.1-es_MX.zip 
-   sudo mv wordpress/* /var/www/html/
-   sudo cd /var/www/html
+   sudo mv wordpress/* /var/www/html/bitacora/
+   sudo cd /var/www/html/bitacora/
    sudo cp wp-config-sample.php wp-config.php 
+   sudo mkdir wp-content/uploads
+   sudo cd /var/www/html/
+   sudo chmod -R 775 *
    sudo chown -R mantenimientocl:www-data *
    
 Conceder permisos de red al usuario root y crear la base de datos en el servidor
@@ -69,7 +73,7 @@ Conceder permisos de red al usuario root y crear la base de datos en el servidor
    
 ----
 
-| GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;   
+| GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'manttocl' WITH GRANT OPTION;   
 | CREATE DATABASE wordpress;
 | EXIT
 
@@ -85,16 +89,10 @@ Editar el archivo de configuracion segun las necesidades
 
 | define('DB_NAME', 'wordpress');
 | define('DB_USER', 'root');
-| define('DB_PASSWORD', 'password');   
+| define('DB_PASSWORD', 'manttocl');   
 
 ----
 
-Crear el directorio para los archivos subidos
-
-::
-
-   mkdir /var/www/html/wp-content/uploads
-   sudo chown -R :www-data /var/www/html/wp-content/uploads
    
 Acceder al sitio desde el navegador
 

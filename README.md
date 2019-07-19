@@ -21,7 +21,7 @@
 * Ninguno
 
 ## Autores
-* <a href="http://www.github.com/emmanuel156">emmanuel156</a> <img src="https://avatars0.githubusercontent.com/u/15036095?v=3" height="32" width="32">
+* <a href="http://www.github.com/emmanuel156">emmanuel156</a> <img src="https://avatars3.githubusercontent.com/u/15036095?v=4" height="32" width="32">
 
 ## Comentarios
 * Cuenta con ligeras modificaciones para facilitar los posts (entradas en la bitacora)
@@ -57,6 +57,12 @@
 		* Capturas de comunicacion
 		* Modelos de componentes que se hayan probado
 
+---
+![Captura de pantalla 2019-07-18 09.48.06.png](/Fotos/Captura%20de%20pantalla%202019-07-18%2009.48.06.png)
+---
+![Captura de pantalla 2019-07-18 09.48.21.png](/Fotos/Captura%20de%20pantalla%202019-07-18%2009.48.21.png)
+---
+![Captura de pantalla 2019-07-18 09.48.41.png](/Fotos/Captura%20de%20pantalla%202019-07-18%2009.48.41.png)
 ---
 ![Screenshot_2015-12-29-12-26-02.png](/Fotos/Screenshot_2015-12-29-12-26-02.png)
 ---
